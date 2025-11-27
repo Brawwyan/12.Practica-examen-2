@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+    <link rel="stylesheet" href="css/estilos.css">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&family=Parisienne&family=Satisfy&display=swap');
+</style>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>Cafe Paris</h1>
+    <p id="eslogan">Un momento de Relax</p>
+    <ul>
+        <li>
+            <a href="index.html">Principal</a>
+        </li>
+        <li>
+            <a href="carta.html">Nuestro Cafe</a>
+        </li>
+        <li>
+            <a href="contacto.html">Contacta con nosotros</a>
+        </li>
+    </ul>
+    <h2>Contacta con nosotros</h2>
+    <form action="procesacontacto.php" method="get">
+        <p><label for="nombreyapellidos">Nombre y Apellidos
+        <input type="text" name="nombreyapellidos" required placeholder="escribe su nombre y apellido"></label></p>
+        <p><label for="Fechadenacimiento">Fecha de Nacimiento
+        <input type="date" name="Fechadenacimiento"></label></p>
+        <p><label for="consumir">Suele consumir
+        <input type="radio" name="consumir" checked>Cafe</label><input type="radio" name="consumir">Te <input type="radio" name="consumir">Ambos</p>
+        <p><label for="numerodecafe">Numero de cafes al dia<input type="number" name="numerodecafe" min="1" max="5"></label></p>
+        <p><label for="cafeteria">Selecciona tu cafeteria <select name="cafeteria" id="cafeteria"><option value="cr">Ciudad Real</option><option value="md" selected>Madrid</option><option value="td">Toledo</option></select></label></p>
+        <label for="informacion"><input type="checkbox" name="informacion"checked>Deseo rebicir informacion sobre novedades y ofertas</label>
+        <input type="submit" name="enviar">enviar <input type="reset" name="reset">
+    </form>
 </body>
 </html>

@@ -12,3 +12,11 @@ a:active{color: darkgoldenrod;}
 body{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSauOEGr_NieG84cxhbNJWh9slBymGY0IcueQ&s);background-size: cover;}
 li{color: white;}
 p{text-align: center;width: 200;height: 200;}
+/*estilos de la carta*/
+.fotocarta{height: 200px;width: 200px;}
+.categorias{border: 3px solid darkgoldenrod;font-size: 2em;text-shadow: 3px 3px white;background-color: darkgoldenrod;}
+table,td,th{border: 3px solid darkgoldenrod;border-collapse: collapse;vertical-align: center;width: 50%;padding: 20px;}
+table{background-color: cornsilk;font-family: satisfy;font-size: 1.5em;text-align: center;margin: auto;}
+/*estilos contacto*/
+form{border: 2px solid darkgoldenrod;border-radius: 20px;width: 50%;text-align: center;padding: 30px;background-color: black;}
+label{font-family: Caveat;color: cornsilk;font-size: 1.5em;}
